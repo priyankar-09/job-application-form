@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1 " />
+    <title>Application Form</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container my-2 w-100 p-2 border border-black bg-body-tertiary">
+      <header class="w-100 p-2 border-bottom border-black">
+        <h1>Job Application Form</h1>
+      </header>
+
+      <section class="container my-2 w-100 p-2">
+        <form class="row g-3 p-3">
+          <div class="col-md-6">
+            <label for="validationCustom01" class="form-label"
+              >First name</label >
+            <input
+              type="text"
+              class="form-control border border-black"
+              style="--bs-border-opacity: 0.4"
+              id="validationCustom01"
+              placeholder="First"
+              required
+            />
+            <div class="valid-feedback">Looks good!</div>
+          </div>
+          <div class="col-md-6">
+            <label for="validationCustom02" class="form-label">Last name</label>
+            <input
+              type="text"
+              class="form-control border border-black"
+              style="--bs-border-opacity: 0.4"
+              id="validationCustom02"
+              placeholder="Last"
+              required
+            />
+            <div class="valid-feedback">Looks good!</div>
+          </div>
+          <div class="col-md-12">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control border border-black"
+              style="--bs-border-opacity: 0.4"
+              id="inputEmail4"
+              placeholder="xyz@gmail.com"
+            />
+          </div>
+
+          <div class="col-md-6">
+            <label for="disabledSelect" class="form-label"
+              >What position are you applying for?</label
+            >
+            <select
+              id="disabledSelect"
+              class="form-select border-black"
+              style="--bs-border-opacity: 0.4"
+              id="inputGroupPrepend"
+            >
+              <option>select</option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label"
+              >Available Date</label
+            >
+            <input
+              type="date"
+              class="form-control border border-black"
+              style="--bs-border-opacity: 0.4"
+              id="inputPassword4"
+            />
+          </div>
+          <h6>What is your current employee status?</h6>
+
+          <div class="form-check col-md-6">
+            <input
+              class="form-check-input border border-black"
+              type="radio"
+              name="flexRadioDefault"
+              id="flexRadioDefault1"
+            />
+            <label class="form-check-label" for="flexRadioDefault1">
+              Employed
+            </label>
+          </div>
+          <div class="form-check col-md-6">
+            <input
+              class="form-check-input border border-black"
+              type="radio"
+              name="flexRadioDefault"
+              id="flexRadioDefault1"
+            />
+            <label class="form-check-label" for="flexRadioDefault1">
+              Unemployedd
+            </label>
+          </div>
+          <div class="form-check col-md-6">
+            <input
+              class="form-check-input border border-black"
+              type="radio"
+              name="flexRadioDefault"
+              id="flexRadioDefault1"
+            />
+            <label class="form-check-label" for="flexRadioDefault1">
+              Self-Employed
+            </label>
+          </div>
+          <div class="form-check col-md-6">
+            <input
+              class="form-check-input border border-black"
+              type="radio"
+              name="flexRadioDefault"
+              id="flexRadioDefault1"
+            />
+            <label class="form-check-label" for="flexRadioDefault1">
+              Student
+            </label>
+          </div>
+
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label"
+              >Please provide your resume link</label
+            >
+            <input
+              type="phonenumber"
+              class="form-control border border-black"
+              style="--bs-border-opacity: 0.4"
+              id="inputphone"
+              placeholder="https://www.example.com/"
+              required
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="formFile" class="form-label"
+              >PLease upload your resume</label
+            >
+            <input
+              class="form-control border border-black"
+              style="--bs-border-opacity: 0.4"
+              type="file"
+              id="formFile"
+            />
+          </div>
+          <h6>Do you have reference?(optional)</h6>
+          <div class="col-md-6">
+            <input
+              type="text"
+              class="form-control border border-black"
+              style="--bs-border-opacity: 0.4"
+              id="validationCustom01"
+              placeholder="First"
+              required/>
+          </div>
+          <div class="col-md-6">
+            <input
+              type="text"
+              class="form-control border border-black"
+              style="--bs-border-opacity: 0.4"
+              id="validationCustom01"
+              placeholder="last"
+              required/>
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Reference Email</label>
+            <input
+              type="text"
+              class="form-control border border-black"
+              style="--bs-border-opacity: 0.4"
+              id="inputAddress"
+              placeholder="john.doe@example.com"
+            />
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Current Address</label>
+            <input
+              type="text"
+              class="form-control border border-black"
+              style="--bs-border-opacity: 0.4"
+              id="inputAddress"
+              placeholder="1234 Main St"
+            />
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label"
+              >Permanent Address
+            </label>
+            <input
+              type="text"
+              class="form-control border border-black"
+              style="--bs-border-opacity: 0.4"
+              id="inputAddress2"
+              placeholder="Apartment, studio, or floor"
+            />
+          </div>
+          <div class="col-md-4">
+            <label for="inputCity" class="form-label">City</label>
+            <input
+              type="text"
+              class="form-control border border-black"
+              style="--bs-border-opacity: 0.4"
+              id="inputCity"
+            />
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select
+              id="inputState"
+              class="form-select border border-black"
+              style="--bs-border-opacity: 0.4"
+            >
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="col-md-4">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input
+              type="text"
+              class="form-control border border-black"
+              style="--bs-border-opacity: 0.4"
+              id="inputZip"
+            />
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input
+                class="form-check-input border border-black"
+                style="--bs-border-opacity: 0.4"
+                type="checkbox"
+                id="gridCheck"
+              />
+              <label class="form-check-label" for="gridCheck">
+                Check me out
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="button" class="btn btn-outline-secondary">Reset</button>
+            <button type="submit" class="btn btn-primary">Apply</button>
+          </div>
+        </form>
+      </section>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
